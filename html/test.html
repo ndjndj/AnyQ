@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input sheet</title>
+</head>
+<body>
+    <h1>問題作成フォーム</h1>
+    <div>
+    <h2>問題1</h2>
+    
+        <h3>問題文</h3>
+        <input type="text">
+        <h3>解答方式</h3>
+        <select name="ans_type" id="">
+            <option value="select_one">選択式(択一)</option>
+            <option value="select_multi">選択式(複数)</option>
+            <option value="write">記述式</option>
+            <option value="tf">正誤式</option>
+            <option value="comb">組み合わせ方式</option>
+            <option value="hole">穴埋め方式</option>
+            <option value="sort">並び替え方式</option>
+            <option value=""></option>
+        </select>
+        <h3>解答</h3>
+        <input type="text">
+    </div>
+    
+    <button>完了</button>
+</body>
+</html>
