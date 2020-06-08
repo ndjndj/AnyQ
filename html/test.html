@@ -8,10 +8,11 @@
 <body>
     <h1>問題作成フォーム</h1>
     <div>
+    <form action="../php/createQ.php" method="post">
     <h2>問題1</h2>
     
         <h3>問題文</h3>
-        <input type="text">
+        <textarea name="quiz" id="" cols="80" rows="10" type="text"></textarea>
         <h3>解答方式</h3>
         <select name="ans_type" id="">
             <option value="select_one">選択式(択一)</option>
@@ -24,9 +25,8 @@
             <option value=""></option>
         </select>
         <h3>解答</h3>
-        <input type="text">
+        <input type="submit" value="送信">
+    </form>
     </div>
-    
-    <button>完了</button>
 </body>
 </html>
