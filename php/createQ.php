@@ -58,5 +58,6 @@
     ?>
     
     <a href="../html/test.html">クイズ作成画面に戻る</a>
+    <a href="../html/quiz_check_query.html">作成したクイズを確認する</a>
 </body>
 </html>
