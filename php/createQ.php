@@ -8,9 +8,9 @@
 <body>
     <?php 
         if (isset($_POST["quiz"])) {
-            $quiz_set_id = 1;
-            $quiz_number = 1;
-            $user_id = 1;
+            $quiz_set_id = $_POST["quiz_set_id"];
+            $quiz_number = $_POST["quiz_number"];
+            $user_id = $_POST["user_id"];
             $quiz = $_POST["quiz"];
             $quiz_type = 1;
             date_default_timezone_set('Asia/Tokyo');
@@ -57,5 +57,6 @@
         }
     ?>
     
+    <a href="../html/test.html">クイズ作成画面に戻る</a>
 </body>
 </html>

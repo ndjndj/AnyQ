@@ -9,8 +9,11 @@
     <h1>問題作成フォーム</h1>
     <div>
     <form action="../php/createQ.php" method="post">
-    <h2>問題1</h2>
-    
+        <input type="text" name= "user_id" placeholder="ユーザーID">
+        <input type="text" name= "quiz_set_id" placeholder="クイズID">
+        <input type="text" name= "quiz_number" placeholder="問番号">
+        <h2>問題1</h2>
+        
         <h3>問題文</h3>
         <textarea name="quiz" id="" cols="80" rows="10" type="text"></textarea>
         <h3>解答方式</h3>
