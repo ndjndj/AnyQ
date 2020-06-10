@@ -20,20 +20,24 @@
     </nav>
     <div id="login">
         <!-- user name -->
+        
         <div id="userinfo">
-            <p class="user">USERNAME</p>
-            <div class="user">
-                <input type="text" placeholder="user name">
-            </div>
-            <p class="user">PASSWORD</p>
-            <div class="user">
-                <input type="text" placeholder="password">
-            </div>
-            <div class="user">
-                <input type="submit" value="login">
-            </div>
+            <form action="../php/login.php" method="POST">
+                <p class="user">EMAIL</p>
+                <div class="user">
+                    <input type="email" placeholder="email" name="email">
+                </div>
+                <p class="user">PASSWORD</p>
+                <div class="user">
+                    <input type="password" placeholder="password" name="password">
+                </div>
+                <div class="user">
+                    <input type="submit" value="login">
+                </div>
+            </form>
+            
             <a href="user_page.html">forgot your password</a>
-            <a href="user_page.html">Sign Up!</a>
+            <a href="signUp.html">Sign Up!</a>
         </div>
         <!-- submit -->
         
